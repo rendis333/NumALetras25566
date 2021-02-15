@@ -61,6 +61,6 @@ public class NumALetras {
             conector = (decena <= 2) ? "" : " y ";      // Casos dieci y veinti
             letras = decenas[decena] + conector + unidades[unidad];
         }
-        System.out.println("Son: " + letras + " pesos.");
+        System.out.println("Son:  " + letras + " pesos.");
     }
 }
