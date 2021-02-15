@@ -17,11 +17,12 @@ public class NumALetras {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //
+        // Cantidades
         int num = 0;
         int decena = 0;
         int unidad = 0;
-
+        
+        // Variabes cadena
         String conector = "";
         String letras = "";
 
@@ -54,7 +55,7 @@ public class NumALetras {
                     letras = "quince";
                     break;
             }
-        } else {                                // Casos generales
+        } else {                                        // Casos generales
             decena = num / 10;
             unidad = num % 10;
             conector = (decena <= 2) ? "" : " y ";      // Casos dieci y veinti
