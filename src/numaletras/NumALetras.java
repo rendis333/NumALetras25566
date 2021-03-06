@@ -39,21 +39,11 @@ public class NumALetras {
             letras = "Número inválido";
         } else if (num >= 11 && num <= 15) {    // Casos especiales
             switch (num) {
-                case 11:
-                    letras = "once";
-                    break;
-                case 12:
-                    letras = "doce";
-                    break;
-                case 13:
-                    letras = "trece";
-                    break;
-                case 14:
-                    letras = "catorce";
-                    break;
-                case 15:
-                    letras = "quince";
-                    break;
+                case 11 -> letras = "once";
+                case 12 -> letras = "doce";
+                case 13 -> letras = "trece";
+                case 14 -> letras = "catorce";
+                case 15 -> letras = "quince";
             }
         } else {                                        // Casos generales
             decena = num / 10;
